@@ -50,8 +50,8 @@ printf("the post-fix increment(v++) is %d \n",v++);
 printf("the pre-fix increment(++v) is %d \n",++v);
 
 printf("\n original value of v is %d\n",v);
-printf("the post-fix increment(v--) is %d \n",v--);
-printf("the pre-fix increment(--v) is %d \n",--v);
+printf("the post-fix decrement(v--) is %d \n",v--);
+printf("the pre-fix decrement(--v) is %d \n",--v);
 
 
 return (0);
