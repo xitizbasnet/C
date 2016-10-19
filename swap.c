@@ -14,10 +14,10 @@ int main(){
 
 int m,n,temp;
 
-printf("Enter the first number: \n");
+printf("Enter the first number(m): \n");
 scanf("%d",&m);
 
-printf("Enter the second number: \n");
+printf("Enter the second number(n): \n");
 scanf("%d",&n);
 
 printf("Before swaping the number: \n");
@@ -27,7 +27,7 @@ temp=n;
 n=m;
 m=temp;
 
-printf("Swaping the number :\n");
+printf("After swaping the number :\n");
 printf("m=%d n=%d\n",m,n);
 
 
