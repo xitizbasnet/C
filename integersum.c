@@ -12,20 +12,22 @@ Date:oct 25,2016
 
 int main()
 	{
-		int n,sum=0;
+		int n,sum=0,i=0;
 		
-		printf("Enter a positive integer\n");
+		printf("Enter a positive integer:\n");
         scanf("%d",&n);
   
         do
         {
-        	sum+=n; //sum=n+n......
-        	n--;
+        	sum+=i; //sum=sum+n......
+        	printf("Sum of i number is: %d\n",sum);
+        	i++;
         	
         }
-        while(n>0);
-        printf("Sum=%d\n",sum);
-        //getch();
+        while(i<=n);
         
-		return 0;
+        
+		
+		//getch();
+        	return 0;
       	}
