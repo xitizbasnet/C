@@ -2,7 +2,7 @@
 Name: xitiz basnet
 Subject programming fundamentals
 Date:Nov6,2016
-Program: werite a program to check given no is palindrome or not.
+Program: write a program to check given long no is palindrome or not.
 lab:12
 */
 
@@ -20,8 +20,11 @@ while(x!=0)
 
 {
 r=x%10;
+printf("value of r=%lld\n",r);
 y=y*10+r;
+printf("\nvalue of y=%lld\n",y);
 x=x/10;
+printf("value of x=%lld\n",x);
 }
 
 if(z==y)
