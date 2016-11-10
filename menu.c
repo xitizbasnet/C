@@ -35,10 +35,10 @@ case 1:
     scanf("%d",&z); 
 
     if(z%2==0) 
-    printf("Your number is even"); 
+    printf("Your number is even\n"); 
 
     else 
-    printf("Your number is odd"); 
+    printf("Your number is odd\n"); 
     goto f;
 break;
 
@@ -55,11 +55,11 @@ for(i=1;i<=x;i++)
 
 if (count>2)
 {
-    printf("%d is not a prime number",x);
+    printf("%d is not a prime number\n",x);
 }
 else
 {
-    printf("%d is a prime number",x);
+    printf("%d is a prime number\n",x);
 }
 goto f;
 break;
@@ -78,7 +78,7 @@ case 4:
  printf("4.ASCII Value\n");
     printf("Please Enter any character:\n");
     scanf("%s",&c);
-    printf("The ASCII value of given character = %d",c);
+    printf("The ASCII value of given character = %d\n",c);
 goto f;
 }
 return 0;
