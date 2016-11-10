@@ -11,10 +11,11 @@ date:Nov10,2016
 //#include<conio.h>
 int main()
 {
+	
 int z,x,i,count=0;
 char d,c;
 
-
+f:
     printf("**************************************************\n");
     printf("***              Choose any number             ***\n");
     printf("***            1. Check Odd/Even               ***\n");
@@ -38,6 +39,7 @@ case 1:
 
     else 
     printf("Your number is odd"); 
+    goto f;
 break;
 
 case 2:
@@ -59,7 +61,7 @@ else
 {
     printf("%d is a prime number",x);
 }
-
+goto f;
 break;
 
 case 3:
@@ -68,6 +70,7 @@ case 3:
     scanf("%s",&d);
      
 (d=='a'|| d== 'e' || d=='i' || d=='o' || d=='u' || d=='A' || d== 'E' || d=='I' || d=='O' || d=='U')?printf("It is a vowel\n"):printf("it is a consonant\n");
+goto f;
 break;
 
 case 4:
@@ -76,6 +79,7 @@ case 4:
     printf("Please Enter any character:\n");
     scanf("%s",&c);
     printf("The ASCII value of given character = %d",c);
+goto f;
 }
 return 0;
 }
