@@ -8,14 +8,16 @@ Date: November 18 , 2016
 */
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
+#define pi 3.14
 void main()
 {
   float r,area,circumference;
   printf("Enter radius of the circle:\n");
   scanf("%f",&r);
-  area=3.14*r*r;
+  area=pi*pow(r,2);
   printf("Area of circle is: %f\n",area);
-  circumference=2*3.14*r;
+  circumference=2*pi*r;
   printf("Circumference of circle is: %f",circumference);
   getch();
 }
